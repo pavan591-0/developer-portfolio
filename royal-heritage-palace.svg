@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 900" fill="none">
+  <defs>
+    <linearGradient id="night" x1="400" y1="35" x2="400" y2="820" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#25364F"/>
+      <stop offset=".55" stop-color="#18243A"/>
+      <stop offset="1" stop-color="#101A2B"/>
+    </linearGradient>
+    <linearGradient id="sandstone" x1="400" y1="240" x2="400" y2="748" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E7C989"/>
+      <stop offset=".5" stop-color="#C6A15B"/>
+      <stop offset="1" stop-color="#946F3D"/>
+    </linearGradient>
+    <linearGradient id="shadowStone" x1="400" y1="384" x2="400" y2="735" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#526D60"/>
+      <stop offset="1" stop-color="#355D46"/>
+    </linearGradient>
+    <pattern id="lattice" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M12 0 24 12 12 24 0 12 12 0Z" stroke="#E6C77F" stroke-opacity=".36" stroke-width="1"/>
+      <circle cx="12" cy="12" r="2" fill="#D97724" fill-opacity=".65"/>
+    </pattern>
+    <pattern id="borderDots" width="18" height="18" patternUnits="userSpaceOnUse">
+      <circle cx="9" cy="9" r="1.4" fill="#E7C989" fill-opacity=".8"/>
+    </pattern>
+    <clipPath id="archWindow">
+      <path d="M64 796V350C64 164 206 48 400 48s336 116 336 302v446H64Z"/>
+    </clipPath>
+  </defs>
+
+  <!-- Original miniature-inspired palace panel, framed like an illuminated manuscript. -->
+  <g clip-path="url(#archWindow)">
+    <path fill="url(#night)" d="M40 30h720v790H40z"/>
+    <circle cx="610" cy="188" r="98" fill="#D97724" fill-opacity=".11"/>
+    <circle cx="610" cy="188" r="62" stroke="#D9B66E" stroke-opacity=".48"/>
+    <circle cx="610" cy="188" r="54" stroke="#D9B66E" stroke-opacity=".22" stroke-dasharray="2 8"/>
+    <path d="M94 268c54-80 119-120 194-121m224 0c74 1 139 41 193 121" stroke="#D9B66E" stroke-opacity=".2"/>
+    <g fill="#F8F1E3" fill-opacity=".8">
+      <circle cx="156" cy="184" r="2"/><circle cx="214" cy="115" r="1.6"/><circle cx="292" cy="177" r="1.4"/>
+      <circle cx="511" cy="111" r="1.5"/><circle cx="674" cy="279" r="1.8"/><circle cx="125" cy="319" r="1.4"/>
+      <path d="m210 229 4 10 10 4-10 4-4 10-4-10-10-4 10-4 4-10Zm391-78 3 8 8 3-8 3-3 8-3-8-8-3 8-3 3-8Z"/>
+    </g>
+
+    <!-- distant palace terraces -->
+    <path d="M58 631h684v188H58z" fill="#203951"/>
+    <path d="M78 592h178v161H78zM544 592h178v161H544z" fill="#355D46"/>
+    <path d="M66 590h202v17H66zm466 0h202v17H532z" fill="#C6A15B"/>
+    <path d="M91 588v-69c0-34 24-57 76-77 51 20 75 43 75 77v69H91Zm390 0v-69c0-34 24-57 76-77 51 20 75 43 75 77v69H481Z" fill="url(#sandstone)"/>
+    <path d="M115 588v-71c0-24 16-41 52-58 36 17 52 34 52 58v71" fill="#18243A"/>
+    <path d="M505 588v-71c0-24 16-41 52-58 36 17 52 34 52 58v71" fill="#18243A"/>
+    <path d="M92 520h150m248 0h150" stroke="#F1D99F" stroke-opacity=".65" stroke-width="3"/>
+    <path d="M100 553h137m256 0h137" stroke="#A84F3D" stroke-opacity=".78" stroke-width="5"/>
+    <path d="M120 614h120v101H120zm440 0h120v101H560z" fill="url(#lattice)" opacity=".82"/>
+
+    <!-- central royal court -->
+    <path d="M205 504h390v246H205z" fill="url(#shadowStone)"/>
+    <path d="M189 488h422v24H189z" fill="#C6A15B"/>
+    <path d="M211 472c0-26 22-46 51-46s51 20 51 46v16H211zm275 0c0-26 22-46 51-46s51 20 51 46v16H486z" fill="url(#sandstone)"/>
+    <path d="M228 482v-9c0-17 14-31 34-31s34 14 34 31v9m207 0v-9c0-17 14-31 34-31s34 14 34 31v9" stroke="#18243A" stroke-width="7"/>
+    <path d="M224 516h352v23H224zm14 33h18v147h-18zm61 0h18v147h-18zm228 0h18v147h-18zm61 0h18v147h-18z" fill="url(#sandstone)"/>
+    <path d="M224 543h352" stroke="#A84F3D" stroke-width="5"/>
+    <path d="M334 750V618c0-38 27-68 66-68s66 30 66 68v132h-132Z" fill="#18243A" stroke="#E4C77F" stroke-width="4"/>
+    <path d="M350 750V620c0-28 19-50 50-50s50 22 50 50v130" stroke="#D97724" stroke-opacity=".8" stroke-width="2"/>
+    <path d="M362 750V620c0-22 14-38 38-38s38 16 38 38v130" fill="#101A2B"/>
+    <path d="M350 615c15-13 31-20 50-20s35 7 50 20" stroke="#F2D99C" stroke-opacity=".72"/>
+    <path d="M204 512h392v16H204z" fill="url(#lattice)" opacity=".9"/>
+    <path d="M191 732h418v19H191z" fill="#C6A15B"/>
+    <path d="M176 750h448v13H176zm-23 15h494v12H153z" fill="#E7C989"/>
+    <path d="M133 779h534v10H133z" fill="#A84F3D"/>
+
+    <!-- fine carved columns, lotus rosette and garden edge -->
+    <g stroke="#F8F1E3" stroke-opacity=".38">
+      <path d="M246 555v121m9-121v121m27-121v121m9-121v121m195-121v121m9-121v121m27-121v121m9-121v121"/>
+      <path d="M218 536h364M231 698h338"/>
+    </g>
+    <g transform="translate(400 265)" stroke="#F2D99C" stroke-width="1.6" fill="#A84F3D">
+      <path d="M0 0c-20-7-26-21-22-34 12 4 20 13 22 34Zm0 0c20-7 26-21 22-34-12 4-20 13-22 34Z"/>
+      <path d="M0 0c-8-19-4-33 0-40 4 7 8 21 0 40Z" fill="#D97724"/>
+      <path d="M-30 0c11-4 21-4 30 0 9-4 19-4 30 0-8 10-18 15-30 15S-22 10-30 0Z" fill="#C6A15B"/>
+      <circle cy="4" r="3" fill="#18243A" stroke="none"/>
+    </g>
+    <path d="M45 786h710v36H45z" fill="#18243A"/>
+    <path d="M42 788h716" stroke="#C6A15B" stroke-width="2"/>
+    <path d="M62 800h676" stroke="url(#borderDots)" stroke-width="16"/>
+    <path d="M36 825h728" stroke="#D97724" stroke-opacity=".7" stroke-width="2"/>
+  </g>
+
+  <!-- arch mouldings and small hand-drawn corner rosettes -->
+  <path d="M48 806V348C48 150 194 30 400 30s352 120 352 318v458" stroke="#C6A15B" stroke-width="4"/>
+  <path d="M62 796V350C62 163 204 45 400 45s338 118 338 305v446" stroke="#F2D99C" stroke-opacity=".6" stroke-width="1.5"/>
+  <path d="M77 788V352C77 173 213 61 400 61s323 112 323 291v436" stroke="#C6A15B" stroke-opacity=".38" stroke-dasharray="2 8"/>
+  <g fill="#D97724" stroke="#F2D99C" stroke-width="1.4">
+    <path d="M47 360c-18-9-20-23-15-34 12 3 19 13 15 34Zm0 0c18-9 20-23 15-34-12 3-19 13-15 34Z"/>
+    <path d="M753 360c-18-9-20-23-15-34 12 3 19 13 15 34Zm0 0c18-9 20-23 15-34-12 3-19 13-15 34Z"/>
+  </g>
+</svg>
